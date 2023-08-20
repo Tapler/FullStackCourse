@@ -21,7 +21,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.boot.test.context.SpringBootTest.WebEnvironment.RANDOM_PORT;
 
 @SpringBootTest(webEnvironment = RANDOM_PORT)
-public class CustomerIntegrationTest {
+public class CustomerIT {
 
     private static final Random RANDOM = new Random();
     private static final String CUSTOMER_URI = "api/v1/customers";
